@@ -51,6 +51,6 @@ public abstract class EntityUtils {
         throw new ObjectRetrievalFailureException(entityClass, entityId);
     }
 	
-	//added comment1
+	//added comment2
 
 }
