@@ -51,4 +51,5 @@ RUN ls /src
 WORKDIR /src
 
 RUN mvn package
-COPY /target/petclinic.war /usr/local/tomcat/webapps/
+COPY /src/target/petclinic.war /usr/local/tomcat/webapps/
+
