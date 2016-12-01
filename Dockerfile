@@ -45,7 +45,7 @@ COPY . /src
 # Install app  into /src
 RUN cd /src
 
-RUN ls /src
+#RUN ls /src
 
 # Define working directory.
 WORKDIR /src
