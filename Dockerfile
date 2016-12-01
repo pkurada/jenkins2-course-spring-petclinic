@@ -22,5 +22,11 @@ ENV MAVEN_HOME /opt/maven
 # remove download archive files
 RUN apt-get clean
 
+# Copy app to /src
+COPY . /src
+
+# Install app into /src
+RUN cd /src
+
 RUN mvn package
 COPY /target/petclinic.war /usr/local/tomcat/webapps/
