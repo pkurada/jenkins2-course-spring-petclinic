@@ -17,9 +17,6 @@ RUN ln -s /opt/maven/bin/mvn /usr/local/bin
 RUN rm -f /tmp/apache-maven-3.2.2.tar.gz
 ENV MAVEN_HOME /opt/maven
 
-# install git
-RUN apt-get install -y git
-
 
 
 # remove download archive files
