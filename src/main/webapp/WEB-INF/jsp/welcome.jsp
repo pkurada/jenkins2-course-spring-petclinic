@@ -11,5 +11,6 @@
             <img class="img-responsive" src="${petsImage}"/>
         </div>
     </div>
-
+		<h2>CI in Action</h2>
+	<h3>Team is wathching</h3>
 </petclinic:layout>
